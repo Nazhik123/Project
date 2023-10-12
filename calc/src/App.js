@@ -5,8 +5,8 @@ import store from "./store";
 
 class App extends React.Component{
 
-  constructor() {
-    super()
+  constructor(props) {
+    super(props)
       this.state = {
         out: "0"
       }
